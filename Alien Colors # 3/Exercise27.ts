@@ -26,3 +26,5 @@ if (alienColor3 === "green") {
     console.log("You just earned 10 points");    
 } else 
     console.log("You just earned 15 points");
+
+    

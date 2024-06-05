@@ -5,5 +5,4 @@ if (alien_color === "green") {
 };
 
 if (alien_color === "red") {
-    console.log("You've failed the test.");
 };

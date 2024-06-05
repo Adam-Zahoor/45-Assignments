@@ -6,7 +6,9 @@ for (var _i = 0, usernames_1 = usernames; _i < usernames_1.length; _i++) {
     }
     else {
         console.log("Hello ".concat(i, ". Thank you for logging in again"));
-    }
-    ;
-}
-;
+    };
+};
+
+
+
+

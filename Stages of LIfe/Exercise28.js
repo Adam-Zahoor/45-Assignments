@@ -1,4 +1,4 @@
-var personAge = 6;
+var personAge = 25;
 if (personAge < 2) {
     console.log("You are a baby");
 }
@@ -20,3 +20,4 @@ else if (personAge >= 65) {
 else {
     console.log("Please enter a valid input");
 }
+;

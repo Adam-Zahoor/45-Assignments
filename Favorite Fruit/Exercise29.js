@@ -1,26 +1,21 @@
-var favorite_fruit = ["Orange", "Strawberry", "Mango"];
-if ("Orange" === favorite_fruit[0]) {
-    console.log("You really like Oranges!");
+var favorite_fruit = ["Orange", "Strawberry", "Mango", "Apple", "Banana"];
+if (favorite_fruit.includes("Orange")) {
+    console.log("You really like Oranges");
 }
-else { }
 ;
-if ("Banana" === favorite_fruit[1]) {
-    console.log("You really like Bananas!");
+if (favorite_fruit.includes("Banana")) {
+    console.log("You really like Bananas");
 }
-else { }
 ;
-if ("Peach" === favorite_fruit[2]) {
-    console.log("You really like Peaches!");
+if (favorite_fruit.includes("Peach")) {
+    console.log("You really like Peaches");
 }
-else { }
 ;
-if ("Strawberry" === favorite_fruit[3]) {
-    console.log("You really like Strawberries!");
+if (favorite_fruit.includes("Kiwi")) {
+    console.log("You really like Kiwis");
 }
-else { }
 ;
-if ("Mango" === favorite_fruit[4]) {
-    console.log("You really like Mangoes!");
+if (favorite_fruit.includes("Mango")) {
+    console.log("You really like Mangoes");
+    ;
 }
-else { }
-;

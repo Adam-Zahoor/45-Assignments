@@ -22,4 +22,13 @@ console.log("Changed to reverse order: ",locations.reverse());
 console.log("Changed back to original order: ",locations.sort());
 
 // changing to reverse alphabetical order
-console.log("In reverse alphabeticl order: ",locations.reverse());
+console.log("In reverse alphabetical order: ",locations.reverse());
+
+
+
+
+
+
+
+
+

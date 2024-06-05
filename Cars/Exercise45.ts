@@ -11,3 +11,7 @@ function myCar(manufacturer: string, modelName: string, ...extraInfo: { [key: st
 
 let value = myCar("Suzuki", "Liana", {modelYear: 2015}, {features: ["ABS", "Automatic Suspension", "Auto Gear-changing"]});
 console.log(value);
+
+
+
+

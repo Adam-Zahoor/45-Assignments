@@ -8,3 +8,10 @@ for(let user of new_users) {
         console.log("This username is available");
     };
 };
+
+
+
+
+
+
+

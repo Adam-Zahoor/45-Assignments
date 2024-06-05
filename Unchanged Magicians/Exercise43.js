@@ -7,27 +7,30 @@ var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
     }
     return to.concat(ar || Array.prototype.slice.call(from));
 };
-var nameMagicians = ["Harry Houdini", "David Copperfield", "David Devant", "Paul Daniels"];
-function myArray(arr) {
+// using the array of the magicians that we created in Exercise 41
+var nameOfMagicians = ["Harry Houdini", "David Copperfield", "David Devant", "Paul Daniels"];
+// making the copy of 'nameOfMagicians' array
+function copyOfArray(arr) {
     return __spreadArray([], arr, true);
 }
-;
+// creating a function that will add "the Great" to the name of the magicians
 function makeGreat(magicianArray) {
     for (var i = 0; i < magicianArray.length; i++) {
-        magicianArray[i] = magicianArray[i] + " the great";
+        magicianArray[i] = magicianArray[i] + " the Great";
     }
     ;
 }
 ;
+// using the show_magicians function to print the array of the magicians
 function show_magicians(nameMagicians) {
     nameMagicians.forEach(function (magician) {
         console.log(magician);
     });
 }
 ;
-var copiedArray = myArray(nameMagicians);
-makeGreat(copiedArray);
-console.log("\n\nThis is the original Array");
-show_magicians(nameMagicians);
-console.log("\n\nThis is the modified Array");
-show_magicians(copiedArray);
+var copyOfMagicianArray = copyOfArray(nameOfMagicians);
+makeGreat(copyOfMagicianArray);
+console.log("The original Array: ");
+show_magicians(nameOfMagicians);
+console.log("\n The modified Array: ");
+show_magicians(copyOfMagicianArray);
